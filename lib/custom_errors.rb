@@ -13,7 +13,7 @@ class Person
         begin
             raise PartnerError
         rescue PartnerError => error
-            puts error_message
+            puts error.message
         end
     end
   end
